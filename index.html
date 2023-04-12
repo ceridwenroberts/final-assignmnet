@@ -6,71 +6,99 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ceridwen Roberts: Creative Frontend Web Developer & Designer</title>
+    <link rel="stylesheet" href="./styles/typography.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/homeNav.css">
+
+
     <script src="./scripts/jquery-3.6.3.js" defer></script>
     <script src="./scripts/main.js" defer></script>
     <script src="./scripts/homeNav.js" defer></script>
-    
+
 
 </head>
 
 <body>
-    <header></header>
-    <main>
-        <div>
-            <h1>ceridwen roberts</h1>
-            <p>Creative Developer</p>
-        </div>
-        <ul class="home-nav">
-            <li class="home-nav-item"><a href="./html/about.html">about</a>
-            </li>
-            <li><h2 class="home-nav-btn">works</h2>
-                <ul class="home-subnav-work">
-                    <li class="home-subnav-item">
-                        <h3><a href=" " target="_blank">Tudlington</a></h3>
-                        <p>Yes, it is my dog</p>
-                        <h4>html, CSS</h4>
-                    </li>
-                    <li>
-                        <h3 class="home-subnav-item-master-btn">Mastermind</h3>
-                        <ul class="home-subsubnav-item-master">
-                            <li class="home-subsubnav-item">
-                                <h4>Mastermind JS</h4>
-                                <p>Window prompt JS game</p>
-                            </li>
-                            <li class="home-subsubnav-item">
-                                <h4><a href="https://ceridwenroberts.github.io/ceridwenroberts-mastermind"
-                                        target="_blank">Mastermind, are
-                                        you?</a></h4>
-                                <p>Mastermind game</p>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="home-subnav-item">
-                        <h3><a href="https://ceridwenroberts.github.io/a4-whatthepup/" target="_blank">What the
-                                pup?!</a></h3>
-                    </li>
-                    <li class="home-subnav-item">React Pagination</li>
-                    <li>
-                        <h3><a
-                                href="https://birthdaycountdown-ceridwenroberts.vercel.app/?classId=627619be-4153-4f6e-9a8f-4c2faf497f1d&assignmentId=464706ef-bea1-4706-a634-7e3a2eea3430&submissionId=115a21ea-1b4a-5143-a0cd-a37e4a768043">
-                                Hey Shorty! Birthday Countdown</a></h3>
-                        <p>React, CSS pixel perfect</p>
-                    </li>
-                    <li>
-                        <h3><a href="https://randomjokes-j6w1zm8vk-ceridwenroberts.vercel.app/">Larking about API</a>
-                        </h3>
-                        <p>React, TanStack Query, CSS pixel perfect</p>
-                    </li>
-                    <li>
-                        <h3><a href="https://reactpagination-six.vercel.app/">Fancy pages</a></h3>
-                        <p>React</p>
-                    </li>
-                </ul>
-        
-        </li>
-        <li class="home-nav-item"><a href="/html/contact.html">contact</a></li>
-        </ul>
-    </main>
+    <div id="background">
+        <wrapper>
+            <header>
+                <div>
+                    <h1>ceridwen roberts</h1>
+                    <p>Creative Developer</p>
+                </div>
+            </header>
+
+            <div id="nav-wrap">
+                <nav class="home-nav">
+                    <ul class="home-nav-list">
+
+                        <li class="home-nav-item">
+                            <h2 id="about"><a href="./html/about.html">about</a></h2>
+                        </li>
+                        <li class="home-nav-item">
+                            <h2 id="works" class="home-nav-btn chunky-text">work</h2>
+                            <ul class="works-list">
+                                <li class="works-list-item">
+                                    <h3><a href=" " target="_blank">Tudlington</a></h3>
+                                    <p>html, CSS</p>
+                                </li>
+                                <li class="works-list-item">
+                                    <h3 class="home-subnav-item-master-btn">Mastermind</h3>
+                                    <ul class="works-list-mastermind">
+                                        <li class="works-list-mastermind-item">
+                                            <h4>mastermind.js</h4>
+                                            <p>Window prompt JS game</p>
+                                        </li>
+                                        <li class="works-list-mastermind-item">
+                                            <h4><a href="https://ceridwenroberts.github.io/ceridwenroberts-mastermind"
+                                                    target="_blank">Mastermind, are you?</a></h4>
+                                            <p>Mastermind faux board game</p>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="works-list-item">
+                                    <h3><a href="https://ceridwenroberts.github.io/a4-whatthepup/" target="_blank">What
+                                            the
+                                            pup?!</a></h3>
+                                </li>
+                                <li class="work-list-item">
+                                    <h3><a
+                                            href="https://birthdaycountdown-ceridwenroberts.vercel.app/?classId=627619be-4153-4f6e-9a8f-4c2faf497f1d&assignmentId=464706ef-bea1-4706-a634-7e3a2eea3430&submissionId=115a21ea-1b4a-5143-a0cd-a37e4a768043">
+                                            Hey Shorty! Birthday Countdown</a></h3>
+                                    <p>React, CSS pixel perfect</p>
+                                </li>
+                                <li class="works-list-item">
+                                    <h3><a href="https://randomjokes-j6w1zm8vk-ceridwenroberts.vercel.app/">Larking
+                                            about
+                                            API</a>
+                                    </h3>
+                                    <p>React, TanStack Query, CSS pixel perfect</p>
+                                </li>
+                                <li class="work-list-item">
+                                    <h3><a href="https://reactpagination-six.vercel.app/">Fancy pages</a></h3>
+                                    <p>React</p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="home-nav-item">
+                            <h2 id="contact"><a href="html/contact.html">contact</a></h2>
+                        </li>
+                    </ul>
+            </div>
+            </nav>
+        </wrapper>
+    </div>
+    <div class="mask" id="Mask">
+        <div class="mask_top"></div>
+        <div class="mask_bottom"></div>
+    </div>
+    <div class="frame" id="Frame">
+        <div class="frame_line frame_line-left"></div>
+        <div class="frame_line frame_line-right"></div>
+        <div class="frame_line frame_line-top"></div>
+        <div class="frame_line frame_line-bottom"></div>
+    </div>
     <footer></footer>
 </body>
 

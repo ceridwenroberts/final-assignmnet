@@ -2,12 +2,16 @@ $(function () {
   console.log("homeNav.js");
 
   $(".home-nav-btn").click(function () {
-    $(".home-subnav-work").fadeToggle();
+    $(".works-list").fadeToggle();
+    $(this).fadeToggle();
+    $(this).parent().siblings().fadeToggle();
   });
 
   $(".home-subnav-item-master-btn").click(function () {
-    $(this).parent().siblings().addClass("faded");
-    $(".home-subsubnav-item-master").fadeToggle();
+    console.log("works clicked");
+    $(".works-list-mastermind").fadeToggle();
+    $(this).parent().siblings().toggleClass("faded");
+  
     
 
   });

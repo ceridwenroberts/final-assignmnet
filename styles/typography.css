@@ -1,0 +1,189 @@
+html {
+    font-size: calc(14px + 0.390625vw);
+}
+
+p {
+    font-family: "circular_stdlight", arial;
+
+}
+
+h1 {
+    font-family: 'Syncopate';
+    text-align: center;
+    font-size: 2rem;
+
+}
+
+h2 {
+    font-family: 'Syncopate';
+    text-align: center;
+    font-size: 1rem;
+ 
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.chunky-text {
+    font-family: 'Bright Young Things Regular';
+}
+
+
+
+/* -------------------------- */
+
+@font-face {font-family: 'Syncopate';
+    src: url("../fonts/Syncopate/@font-face/b22bc1a9c9f1ee6fa9c2a1de69be7903.eot"); /* IE9*/
+    src: url("../fonts/Syncopate/@font-face/b22bc1a9c9f1ee6fa9c2a1de69be7903.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/Syncopate/@font-face/b22bc1a9c9f1ee6fa9c2a1de69be7903.woff2") format("woff2"), /* chrome、firefox */
+    url("../fonts/Syncopate/@font-face/b22bc1a9c9f1ee6fa9c2a1de69be7903.woff") format("woff"), /* chrome、firefox */
+    url("../fonts/Syncopate/@font-face/b22bc1a9c9f1ee6fa9c2a1de69be7903.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("../fonts/Syncopate/@font-face/b22bc1a9c9f1ee6fa9c2a1de69be7903.svg") format("svg"); /* iOS 4.1- */
+}
+
+@font-face {
+    font-family: 'Playfair Display', serif;
+}
+
+@font-face {
+    font-family: 'Poiret One', cursive;
+}
+
+@font-face {
+
+    src: url();
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+@font-face {
+    font-family: 'Bright Young Things Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Bright Young Things Regular'), url(../fonts/bright-young-things-cufonfonts-webfont/Bright\ Young\ Things.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Lovelo Line Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Lovelo Line Light'), url('Lovelo-LineLight.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Lovelo Line Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Lovelo Line Bold'), url('Lovelo-LineBold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Lovelo Black';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Lovelo Black'), url('Lovelo-Black.woff') format('woff');
+}
+
+/*
+Example from
+https://typ.io/s/dbt2
+:
+
+.header-1 {
+font-family: 'Playfair Display', serif;
+font-size: 88px;
+font-style: normal;
+font-weight: bold;
+letter-spacing: normal;
+line-height: 72.15625px;
+text-transform: none;
+color: #505050;
+}
+
+*/
+
+
+/* Circular */
+
+@font-face {
+    font-family: "circular_stdblack";
+    src: url("../fonts/Circular/circularstd-black-webfont.woff2") format("woff2"),
+        url("../fonts/Circular/circularstd-black-webfont.woff") format("woff");
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "circular_stdblack_italic";
+    src: url("../fonts/Circular/circularstd-blackitalic-webfont.woff2") format("woff2"),
+        url("../fonts/Circular/circularstd-blackitalic-webfont.woff") format("woff");
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "circular_stdbold";
+    src: url("../fonts/Circular/circularstd-bold-webfont.woff2") format("woff2"),
+        url("../fonts/Circular/circularstd-bold-webfont.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "circular_stdbold_italic";
+    src: url("../fonts/Circular/circularstd-bolditalic-webfont.woff2") format("woff2"),
+        url("../fonts/Circular/circularstd-bolditalic-webfont.woff") format("woff");
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "circular_stdbook";
+    src: url("../fonts/Circular/circularstd-book-webfont.woff2") format("woff2"),
+        url("../fonts/Circular/circularstd-book-webfont.woff") format("woff");
+    font-weight: 450;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "circular_stdbook_italic";
+    src: url("../fonts/Circular/circularstd-bookitalic-webfont.woff2") format("woff2"),
+        url("../fonts/Circular/circularstd-bookitalic-webfont.woff") format("woff");
+    font-weight: 450;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "circular_stdlight_italic";
+    src: url("../fonts/Circular/circularstd-light_italic-webfont.woff2") format("woff2"),
+        url("../fonts/Circular/circularstd-light_italic-webfont.woff") format("woff");
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "circular_stdlight";
+    src: url("../fonts/Circular/circularstd-light-webfont.woff2") format("woff2"),
+        url("../fonts/Circular/circularstd-light-webfont.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "circular_stdmedium";
+    src: url("../fonts/Circular/circularstd-medium-webfont.woff2") format("woff2"),
+        url("../fonts/Circular/circularstd-medium-webfont.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "circular_stdmedium_italic";
+    src: url("../fonts/Circular/circularstd-mediumitalic-webfont.woff2") format("woff2"),
+        url("../fonts/Circular/circularstd-mediumitalic-webfont.woff") format("woff");
+    font-weight: 500;
+    font-style: italic;
+}
+
+

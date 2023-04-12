@@ -1,0 +1,14 @@
+#about, #contact, #works {
+    text-align: right;
+}
+
+#about,
+#contact {
+    font-size: 6vw;
+}
+
+#works {
+    font-size: 10.8vw;
+    font-weight: 400;
+
+}
