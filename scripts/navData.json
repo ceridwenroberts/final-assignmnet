@@ -1,0 +1,63 @@
+[
+    {
+      "ID": 1,
+      "itemName": "about",
+      "href": "../html/about.html"
+    },
+    {
+      "ID": 2,
+      "itemName": "work",
+      "href": "../html/work.html",
+      "worksList": [
+        {
+          "title": "title1",
+          "href": "a ref1",
+          "skills": "skills1",
+          "description": "description1"
+        },
+        {
+          "title": "title2",
+          "href": "a ref2",
+          "skills": "skills2",
+          "description": "description2"
+        }
+      ]
+    },
+    {
+      "ID": 3,
+      "itemName": "contact",
+      "href": "../html/contact.html"
+    }
+  ]
+  
+
+
+// [{
+//     ID: 1,
+//     itemName: "about",
+//     href: "../html/about.html",
+// },
+// {
+//     ID: 2,
+//     itemName: "work",
+//     href: "../html/work.html",
+//     worksList: [{
+//         title: "title",
+//         href: "a ref"
+//         skills: "skills",
+//         description: "description"
+//     }]
+//     [{
+//         title: "title",
+//         href: "a ref",
+//         skills: "skills",
+//         description: "description"
+//     }]
+// },
+// { 
+//     ID: 3,
+//     itemName: "contact",
+//     href: "../html/contact.html",
+// },    
+// ]
+
