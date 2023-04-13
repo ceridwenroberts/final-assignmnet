@@ -22,8 +22,10 @@ h2 {
 }
 
 
+#works-work,
 a {
     text-decoration: none;
+    /* font-family: 'Bright Young Things Regular'; */
 }
 
 .chunky-text {
